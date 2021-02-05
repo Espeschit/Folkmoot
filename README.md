@@ -1,4 +1,4 @@
-![Screenshot](https://raw.githubusercontent.com/Espeschit/Folkmoot/main/frontend/public/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Espeschit/Folkmoot/blob/main/frontend/public/screenshot.png)
 
 # Folkmoot
 
@@ -33,6 +33,14 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 	$ npm i
 	```
 2. Create .env file in backend with your credentials(see [Setup Configurations](#configurations)).
+
+	```
+	PORT="Port Number"
+
+	DB_CONN='mongodb+srv://<user>:<password>@<clusterName>cluster0.mgyuz.mongodb.net/<dbname>?retryWrites=true&w=majority'
+
+	SECRET_KEY="JWT key"
+	```
 
 3. Start the application
 
