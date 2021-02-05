@@ -1,0 +1,387 @@
+html,body {
+    overflow-x: hidden;
+}
+
+.hero {
+    min-height: 626px;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #808080;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./../../images/background.png');
+    background-size: cover;
+}
+
+header {
+    float: left;
+    padding: 1%;
+}
+
+.label {
+    position: relative;
+    top: 70px;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 75px;
+}
+
+h2 {
+    width: 99%;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.scroll {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 46%;
+}
+
+.scroll:hover {
+    transform: scale(1.08);
+}
+
+.register {
+    background-color: rgb(255, 70, 50);
+    border: black;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: solid;
+    margin: 60px;
+    outline: none;
+    border-radius: 28px;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.register:hover {
+    transform: scale(1.04);
+    background-color: rgb(255, 116, 101);
+}
+
+.login {
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 60px;
+    outline: none;
+    border-radius: 28px;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.login:hover {
+    transform: scale(1.04);
+    background-color: rgb(64, 64, 64);
+}
+
+.footerLink {
+    position: relative;
+    left: 90%;
+}
+
+.buttonFooter {
+    background-color: rgb(255, 70, 50);
+    border: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: solid;
+    outline: none;
+    border-radius: 40px;
+    padding: 14px 16px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttonFooter:hover {
+    transform: scale(1.04);
+    background-color: rgb(255, 116, 101);
+}
+
+.about {
+    position: relative;
+    top: 10vh;
+}
+
+.aboutTitle {
+    color: #222326;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-weight: 700;
+}
+
+.aboutLine {
+    position: relative;
+    bottom: 8%;
+    border: 0;
+    height: 2px;
+    width: 50%;
+    margin-bottom: 5em;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 70, 50, 0.75), rgba(255, 70, 50, 0));
+}
+
+.features {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 150px;
+    margin-left: 9px;
+    list-style: none;
+}
+
+.iuxteu {
+    display: flex;
+    margin-bottom: 11.7px;
+}
+
+.featuresImages {
+    position: inherit;
+    display: inline-block;
+    margin-right: 20px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.featuresText {
+    display: inline-block;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 16px 0px;
+}
+
+.featuresTitle {
+    color: #222326;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.25px;
+    line-height: 1.3em;
+}
+
+.featuresSubtitle {
+    color: #222326;
+}
+
+footer {
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    color: #fff;
+}
+
+.cta {
+    width: 100%;
+}
+
+.infoBox {
+    padding: 0 56px;
+    margin-bottom: 56px;
+}
+
+.footerHero {
+    margin-left: 23px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 17%;
+}
+
+.socialIcons {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 24px;
+    width: 30px;
+    height: 30px;
+}
+
+.socialIcons:hover {
+    transform: scale(1.04);
+}
+
+.footnote {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 56px;
+}
+
+.footLine {
+    background-color: rgb(255, 70, 50);
+    width: 100%;
+    border: 0;
+    height: 2px;
+    margin-bottom: 32px;
+}
+
+.logoLink {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 18px;
+}
+
+@media (min-width: 768px) {
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iuxteu {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        width: 50%;
+    }
+
+    .firstImage {
+        margin-left: -25px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .features {
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+
+    .iuxteu {
+        display: block;
+        width: 270px;
+    }
+
+    .featuresImages {
+        display: block;
+        margin: 0px auto 40px;
+    }
+
+    .featuresText {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .hero {
+        min-height: 100vh;
+    }
+
+    .label {
+        top: 110px
+    }
+
+    .logo {
+        width: 37px;
+        height: 37px;
+    }
+
+    h1 {
+        font-size: calc(28px + 28 * ((100vw - 320px) / 160));
+    }
+
+    h2 {
+        font-size: calc(20px + 20 * ((100vw - 320px) / 160));
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .scroll {
+        left: inherit;
+        top: 170px;
+        height: 65px;
+        width: 65px;
+    }
+
+    .register {
+        position: relative;
+        flex-shrink: 0;
+        font-size: 15px;
+        width: 60%;
+        padding-bottom: 2px;
+    }
+
+    .login {
+        position: relative;
+        right: 22%;
+        flex-shrink: 0;
+        font-size: 15px;
+        width: 60%;
+        padding-bottom: 2px;
+    }
+
+    .footerLink {
+        left: 60%;
+    }
+
+    .about {
+        min-height: 100vh;
+    }
+
+    .aboutTitle {
+        font-size: 32px;
+    }
+
+    .aboutLine {
+        margin-bottom: 0;
+    }
+
+    .features {
+        margin-left: 9px;
+    }
+
+    .firstFeature {
+        position: relative;
+        top: 25px;
+    }
+
+    .featuresImages {
+        position: relative;
+        top: 23px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .firstText {
+        position: relative;
+        right: 13.5%;
+    }
+
+    h3 {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .social {
+        width: 70%;
+    }
+
+}

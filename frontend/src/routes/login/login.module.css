@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    cursor: pointer;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    padding: 40px 0px 32px;
+}
+
+.logo:hover {
+    transform: scale(1.04);
+}
+
+.title {
+    width: 70%;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 4px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+}
+
+.aboutLine {
+    border: 0;
+    height: 2px;
+    width: 50%;
+    margin-bottom: 2em;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 70, 50, 0.75), rgba(255, 70, 50, 0));
+}
+
+.form {
+    max-width: 450px;
+    margin: 0px auto;
+}
+
+.inputSection {
+    padding: 14px;
+    padding-bottom: 24px;
+}
+
+.labelGroup {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.error {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-top: 8px;
+    color: rgb(226, 33, 52);
+}
+
+.inputBox {
+    box-shadow: rgb(189, 189, 189) 0px 0px 0px 1px inset;
+    margin-top: 8px;
+    border-radius: 4px;
+    padding: 14px;
+    border: none;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    width: 88%;
+}
+
+.login {
+    background-color: rgb(255, 70, 50);
+    border: black;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: solid;
+    width: 100%;
+    height: 50px;
+    border-radius: 28px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.login:hover {
+    transform: scale(1.04);
+    background-color: rgb(255, 116, 101);
+}
+
+.linkContainer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+a {
+    cursor: pointer;
+    color: darkred;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(255, 70, 50);
+}
+
+.loginButton {
+    background-color: rgb(255, 70, 50);
+    border: black;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: solid;
+    border-radius: 28px;
+    margin: 0px auto;
+    cursor: pointer;
+    height: 50px;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    outline:none;
+}
+
+.loginButton:hover {
+    background-color: rgb(255, 116, 101);
+}
+
+@media all and (max-width: 480px) {
+    .loginButton {
+        position: relative;
+        left: 10%;
+        flex-shrink: 0;
+        font-size: 15px;
+        width: 80%;
+        padding-bottom: 2px;
+    }
+}
