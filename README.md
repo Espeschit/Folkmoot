@@ -15,7 +15,7 @@ A Real Time Chat Application built using React, Express, Mongoose & Socket.io.
 + Real-time communication between a client and a server using [Socket.io](https://github.com/socketio/socket.io).
 + Uses [MongoDB](https://github.com/mongodb/mongo) & [Mongoose](https://github.com/Automattic/mongoose) for storing and querying data.
 + Words filtered using [bad-words](https://github.com/web-mech/badwords) package.
-+ Uses [jsonwebtoken] to securely transmit information between parties (https://github.com/auth0/node-jsonwebtoken).
++ Uses [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) to securely transmit information between parties .
 
 ## Installation<a name="installation"></a>
 ### Running Locally
