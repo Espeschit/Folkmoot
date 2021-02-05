@@ -1,4 +1,4 @@
-![Screenshot](https://raw.githubusercontent.com/Espeschit/Folkmoot/blob/main/frontend/public/screenshot.png)
+![Screenshot](https://raw.github.com/Espeschit/Folkmoot/main/frontend/public/screenshot.png)
 
 # Folkmoot
 
@@ -51,7 +51,7 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 ## How It Works<a name="how-it-works"></a>
 ### Setup Configurations<a name="configurations"></a>
-The environment variables need to be created with your credentials, containing the backend port, the mongodb cluster url and the password the JWT token.
+The environment variables need to be created with your credentials, containing the backend port, the mongodb cluster url and the password of the JWT token.
 
 #### MongoDB
 You need to create a MongoDB cluster, get the `MongoDB URI` and assign it to the .env file in the backend.
