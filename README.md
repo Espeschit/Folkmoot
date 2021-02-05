@@ -13,7 +13,7 @@ A Real Time Chat Application built using React, Express, Mongoose & Socket.io.
 + Uses React & Express as the application Frameworks.
 + Passwords are hashed using [bcrypt-nodejs](https://github.com/shaneGirish/bcrypt-nodejs) package.
 + Real-time communication between a client and a server using [Socket.io](https://github.com/socketio/socket.io).
-+ Uses [MongoDB](https://github.com/mongodb/mongo), [Mongoose](https://github.com/Automattic/mongoose) for storing and querying data.
++ Uses [MongoDB](https://github.com/mongodb/mongo) & [Mongoose](https://github.com/Automattic/mongoose) for storing and querying data.
 + Words filtered using [bad-words](https://github.com/web-mech/badwords) package.
 + Uses [jsonwebtoken] to securely transmit information between parties (https://github.com/auth0/node-jsonwebtoken).
 
