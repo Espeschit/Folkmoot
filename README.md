@@ -1,4 +1,4 @@
-![Screenshot](https://raw.github.com/Espeschit/Folkmoot/main/frontend/public/screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/38383200/107075562-08e14300-67c9-11eb-981c-cf756e34a147.png)
 
 # Folkmoot
 
